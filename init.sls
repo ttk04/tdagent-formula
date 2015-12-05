@@ -1,8 +1,8 @@
 td-agent-pkgrepo:
      pkgrepo.managed:
         - humanname: FluentD treasure PPA
-        - name: deb http://packages.treasure-data.com/precise/ precise contrib
-        - key_url: http://packages.treasure-data.com/debian/RPM-GPG-KEY-td-agent
+        - name: deb http://packages.treasuredata.com/2/ubuntu/trusty/ trusty contrib
+        - key_url: https://packages.treasuredata.com/GPG-KEY-td-agent
         - file: /etc/apt/sources.list.d/treasure-data.list
         - refresh: True
         - require_in:
